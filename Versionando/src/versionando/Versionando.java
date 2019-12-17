@@ -20,6 +20,13 @@ public class Versionando {
         for (int i=0; i<=10; i++){
             System.out.println("Valores "+ i);
         }
+        System.out.println("Sumatoria" + Suma(2,6));
+    }
+    
+    //Método de Suma
+    public static double Suma(int intA, int intB){
+        double Sumatoria = intA + intB;
+        return Sumatoria;
     }
     
 }
