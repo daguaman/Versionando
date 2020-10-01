@@ -21,6 +21,8 @@ public class Versionando {
             System.out.println("Valores "+ i);
         }
         System.out.println("Sumatoria" + Suma(2,6));
+        System.out.println("Multiplica" + Multi(2,6));
+        System.out.println("Divide" + Division(2,6));
     }
     
     //Método de Suma
@@ -29,4 +31,18 @@ public class Versionando {
         return Sumatoria;
     }
     
+    public static double Multi(int intA, int intB){
+        double Multi = intA * intB;
+        return Multi;
+    }
+    
+    public static double Division(int intA, int intB){
+        double Divide = intA/intB;
+        return Divide;
+    }
+    
+    public static double Resta (int A, int B){
+        double resta = Math.abs(A-B);
+        return resta;
+    }
 }
